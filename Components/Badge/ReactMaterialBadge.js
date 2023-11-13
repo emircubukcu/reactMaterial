@@ -8,6 +8,7 @@ export default function ReactMaterialBadge({ badgeSize,badgeIcon,badgeText,badge
 
     useEffect(()=>{
         if(badgeStyle=="outline"){setBadgeType(1)}else{setBadgeType(0)}
+        
     })
 
     return (
