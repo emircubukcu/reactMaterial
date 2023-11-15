@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: drop-shadow(0px 0px 2px #000000);
 }
 .badge-outline{
     background-color: unset;
@@ -25,4 +26,29 @@
     max-width: 50px;
     max-height: 50px;
     padding: 0px 4px;
+}
+.badge:hover{
+    animation-name: badgeHover;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes badgeHover {
+    0%{
+        filter: drop-shadow(0px 0px 1px #000000);
+    }
+    25%{
+        filter: drop-shadow(0px 0px 3px #000000);
+    }
+    50%{
+        filter: drop-shadow(0px 0px 5px #000000);
+    }
+    75%{
+        filter: drop-shadow(0px 0px 7px #000000);
+    }
+    100%{
+        filter: drop-shadow(0px 0px 6px #000000);
+    }
+
+
 }
