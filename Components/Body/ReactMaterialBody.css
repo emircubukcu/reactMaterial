@@ -1,5 +1,14 @@
 .container{
-    width:100vw;
-    height: 100vh;
-    overflow: scroll;
+    height: calc(100vh - (60px + 3rem) );
+    background-color: #121518;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 16px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }

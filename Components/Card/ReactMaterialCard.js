@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import "./ReactMaterialRow.css"
+import "./ReactMaterialCard.css"
 
-export default function ReactMaterialRow(props){
+export default function ReactMaterialCard(props){
 
     return(
         <>
-            <div className='row' style={props.style}>
+            <div className='card' style={props.style}>
                 {props.children}
             </div>
         </>
     )
-
 }
