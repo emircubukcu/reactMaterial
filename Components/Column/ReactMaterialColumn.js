@@ -9,7 +9,7 @@ export default function ReactMaterialColumn({Size,children}) {
 
     return (
         <>
-            <div className={"col-"+Size}>
+            <div className={"col"}>
                 {children}
             </div>
         </>

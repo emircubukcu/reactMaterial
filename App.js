@@ -10,11 +10,9 @@ import BadgeExample from './Pages/DemoPages/BadgeExample/BadgeExample';
 export default function App() {
   return (
     <Router>
-      <ReactMaterialBody>
         <Routes>
           <Route path='/badge-example' element={<BadgeExample/>}/>
         </Routes>
-      </ReactMaterialBody>
     </Router>
 
   );
