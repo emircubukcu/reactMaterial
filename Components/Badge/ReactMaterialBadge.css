@@ -20,6 +20,7 @@
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+    width: min-content;
     padding: 0px 16px;
 }
 
