@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import "./ReactMaterialBody.css"
+import "./ReactMaterialPageBody.css"
 
-export default function ReactMaterialBody(props){
+export default function ReactMaterialPageBody(props){
 
     return(
         <>
             <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-            <div className='body-container' style={props.style}>
+            <div className='container' style={props.style}>
                 {props.children}
             </div>
         </>

@@ -5,15 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation-duration: .2s;
-    animation-iteration-count: 1;
-    animation-name: badgeHoverEnd;
-    animation-timing-function: ease-in-out;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.74);
-    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.74);
-    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.74);
     background-color: white;
-    transition: all;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -45,55 +37,4 @@
     max-height: 50px;
     margin-left:-8px;
     padding-right: 8px;
-}
-
-.badge:hover {
-    animation-name: badgeHoverStart;
-    animation-timing-function: ease-in-out;
-    box-shadow: 0px 0px 5px #000000;
-}
-
-
-@keyframes badgeHoverStart {
-    0% {
-        box-shadow: 0px 0px 3px #000000;
-    }
-
-    25% {
-        box-shadow: 0px 0px 4px #000000;
-    }
-
-    50% {
-        box-shadow: 0px 0px 5px #000000;
-    }
-
-    75% {
-        box-shadow: 0px 0px 6px #000000;
-    }
-
-    100% {
-        box-shadow: 0px 0px 5px #000000;
-    }
-}
-
-@keyframes badgeHoverEnd {
-    0% {
-        box-shadow: 0px 0px 6px #000000;
-    }
-
-    25% {
-        box-shadow: 0px 0px 5px #000000;
-    }
-
-    50% {
-        box-shadow: 0px 0px 4px #000000;
-    }
-
-    75% {
-        box-shadow: 0px 0px 3px #000000;
-    }
-
-    100% {
-        box-shadow: 0px 0px 2px #000000;
-    }
 }
