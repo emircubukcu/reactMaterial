@@ -44,7 +44,7 @@ export default function App() {
                     <ReactMaterialRow>
                         <ReactMaterialColumn>
                             <ReactMaterialCard>
-                                <p>Test</p>
+                                <p style={{ color: "white", fontSize: "16px", padding: "0px", margin: "0px", width: "100%" }}>Badge</p>
                             </ReactMaterialCard>
                         </ReactMaterialColumn>
                     </ReactMaterialRow>
