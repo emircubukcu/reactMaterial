@@ -17,7 +17,7 @@ export default function BadgeExample() {
                 </ReactMaterialRow>
                 <ReactMaterialRow>
                     <ReactMaterialColumn>
-                        <p style={{ color: "white",whiteSpace:"pre",lineHeight:"2.5"}}>
+                        <p style={{ color: "white",width:"100%",lineHeight:"2.5"}}>
                             Badge, gezinme öğeleri ve simgelerle ilgili bildirimleri, sayıları veya durum bilgilerini gösterir <br/>
                             React Material Badge komponenti küçük tasarıma sahip bir önemli bilgi ve uyarıları gösterebileceğiniz bir komponenttir.Genellikle bilgi verme ve kullanıcılar hakkında kolay bilgi vermek amacıyla kullanılmaktadır.</p>
                     </ReactMaterialColumn>

@@ -1,0 +1,10 @@
+.rm-sidebar{
+    grid-area: sidebar;
+    width: 300px;
+    transition: all .1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    opacity: 1;
+}
+.rm-sidebar-collapsed{
+    width:0px !important;
+    opacity: 0;
+}

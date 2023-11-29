@@ -6,8 +6,7 @@ export default function ReactMaterialButton(props){
 
     return(
         <>
-            
-            <div className='button' style={props.style}>
+            <div className='button' style={props.style} onClick={props.onClickEvent}>
                 {props.children}
             </div>
             
